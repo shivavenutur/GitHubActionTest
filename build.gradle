@@ -40,5 +40,5 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'net.logstash.logback:logstash-logback-encoder:5.2'    
     testImplementation group: 'junit', name: 'junit', version: '4.12'
-    compile group: 'org.mongodb', name: 'mongodb-driver', version: '3.12.7'
+    implementation group: 'org.mongodb', name: 'mongodb-driver', version: '3.12.7'
 }
